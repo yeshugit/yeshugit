@@ -1,7 +1,0 @@
-const posts = [ <% site.posts.each(function(post){%>
-{
-  id: "<%- post._id %>",
-  title: "<%- post.title %>",
-  permalink: "<%- url_for(post.path) %>"
-},
-<%}); %>];

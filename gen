@@ -1,4 +1,0 @@
-#!/bin/bash
-cd ~/termhub
-hexo ge
-am start -n com.android.chrome/com.google.android.apps.chrome.Main
