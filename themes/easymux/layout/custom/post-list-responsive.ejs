@@ -1,0 +1,22 @@
+
+                            <section class="columns is-multiline">
+                              <% terms.each(function(term){ %>
+                              <div class="column is-full-mobile is-half-tablet is-one-third-widescreen">
+                                <section class="panel is-light">
+                                  <div class="panel-heading">
+                                    <p>
+                                      <%- texonomyname %>: 
+                                      <a>
+                                        <%- term.name %>
+                                      </a>
+                                      <span class="is-pulled-right <%- icon %>"></span>
+                                    </p>
+                                  </div>
+                                  <% term.posts.each(function(post){ %>
+                                  <%- partial('post-item.ejs',{post: post}) %>
+                                  <% }) %>
+                                  
+                                </section>
+                              </div>
+                              <% }) %>
+                            </section>

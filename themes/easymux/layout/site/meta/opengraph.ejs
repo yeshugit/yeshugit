@@ -1,0 +1,20 @@
+<%
+  var ogi = page.featured_img || theme.featured_img
+  ogi = config.url + ogi
+  
+  if(!page.permalink){
+    page.permalink = config.url + '/' + page.path
+  }
+%>
+
+<meta property="og:locale" content="<%- config.language || 'en' %>">
+<meta property="og:title" content="<%- title %>">
+<meta property="og:description" content="<%- description %>">
+<meta property="og:url" content="<%- url_for(page.permalink) %>">
+<meta property="og:site_property" content="<%- config.title %>">
+<meta property="og:image" content="<%- url_for(ogi) %>">
+
+<% if(is_post()){%>
+<meta property="og:type" content="article">
+<%} %>
+

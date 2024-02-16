@@ -1,0 +1,12 @@
+
+                            <div class="field is-grouped is-grouped-multiline">
+                              <% terms.each(function(term){ %>
+                              <div class="tags has-addons">
+                                <a href="#<%- term.slug %>">
+                                  <div class="tag is-light"><%- term.name %></div>
+                                  <div class="tag is-dark"><%- term.posts.length %></div>
+                                </a>
+                              </div> &nbsp;
+                              <% }) %>
+                              <div class="tags dummy"></div>
+                            </div>

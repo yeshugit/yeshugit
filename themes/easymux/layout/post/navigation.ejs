@@ -1,0 +1,13 @@
+                        <nav class="mt-5 pagination is-small is is-centered">
+                          <% if(page.prev){%>
+                            <a href="<%- url_for(page.prev.path) %>" class="pagination-previous">Previous</a>
+                          <%}else{%>
+                            <a class="pagination-previous is-disabled">Previous</a>
+                          <%} %>
+                          
+                          <% if(page.next){%>
+                            <a href="<%- url_for(page.next.path) %>" class="pagination-next">Next</a>
+                          <%}else{%>
+                            <a class="pagination-next is-disabled">Next</a>
+                          <%} %>
+                        </nav>

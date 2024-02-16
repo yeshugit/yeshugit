@@ -1,0 +1,24 @@
+                    <div class="column is-8 box">
+                        <h2 class="title is-4">
+                          <span class="fa fa-calendar-plus"></span>
+                          <%- archive_title %>
+                        </h2>
+                        
+                        <ul>
+                          <% page.posts.each(function(post){ %>
+                          <li>
+                            <div class="is-pulled-left is-wrapped">
+                              <span class="fa fa-caret-right"></span>
+                              <a href="<%- url_for(post.path) %>">
+                                <%- post.title %>
+                              </a>
+                            </div>
+                            <div class="is-pulled-right">
+                              <%- date(post.date,"DD MMM, YY") %>
+                              <span class="fa fa-calendar"></span>
+                            </div>
+                            <div class="is-clearfix"></div>
+                          </li>
+                          <% }) %>
+                        </ul>
+                    </div>

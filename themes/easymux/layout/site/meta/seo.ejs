@@ -1,0 +1,31 @@
+<%
+  var keywords = ''
+  
+  var terms = []
+  
+  if(page.categories){
+    page.categories.each((item)=>{
+      terms.push(item.name)
+    })
+  }
+  if(page.tags){
+    page.tags.each((item)=>{
+      terms.push(item.name)
+    })
+  }
+  
+  if(page.keywords){
+    for(const item of page.keywords){
+      terms.push(item)
+    }
+  }
+  
+  if(terms){
+    keywords = terms.join(', ')
+  }
+  
+%>
+
+<meta name="description" content="<%- description || config.description %>">
+<meta name="keywords" content="<%- keywords || config.keywords %>">
+<meta name="author" content="<%- config.author %>">

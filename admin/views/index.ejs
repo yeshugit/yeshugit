@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexo Admin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  </head>
+  <body>
+    <h1 class="title is-2">Edit Hexo Post</h1>
+    <form action="/save" method="post">
+      <input type="hidden" name="filename" value="<%= content %>">
+      <textarea class="input textarea" name="content" id="editor"><%= content %></textarea>
+      <button class="button" type="submit">Save</button>
+    </form>
+    <hr>
+    <h2 class="is-4">Preview</h2>
+    <div id="preview">
+      <%= html %>
+    </div>
+  </body>
+</html>

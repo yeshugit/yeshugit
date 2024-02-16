@@ -1,0 +1,15 @@
+<%
+  var archive_title = __('archive');
+  
+  if(is_month()){
+    archive_title += ': ' + page.year + '/' + page.month; 
+  } else if(is_year()){
+    archive_title += ': ' + page.year;
+  }
+%>
+
+<%-
+    partial('archive/post-by-month.ejs',{
+      archive_title: archive_title
+    })
+%>

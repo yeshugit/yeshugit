@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>How to Install and Setup Php Mysql in Termux?</title>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/xion198/apple-touch-icon.png">
+    
+     
+    <link rel="icon" type="image/png" sizes="32x32" href="/xion198/favicon-32x32.png">
+    
+    
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/xion198/favicon-16x16.png">
+    
+    
+    
+    <link rel="manifest" href="/xion198/site.webmanifest">
+    
+    
+    
+<link rel="stylesheet" href="/xion198/css/bulma.css">
+<link rel="stylesheet" href="/xion198/css/fa.css">
+<link rel="stylesheet" href="/xion198/css/prism.css">
+
+    
+    <meta name="generator" content="hexo-bat by easymux.in" />
+    <meta name="theme-color" content="#637272" />
+    
+
+<meta name="description" content="Hello in this post i will guide you to How To install and Setup PHP and MySQL in Termux.">
+<meta name="keywords" content="Web Development, php, mysql, termux, android">
+<meta name="author" content="Viliyam Vasava">
+    
+
+<meta property="og:locale" content="en">
+<meta property="og:title" content="How to Install and Setup Php Mysql in Termux?">
+<meta property="og:description" content="Hello in this post i will guide you to How To install and Setup PHP and MySQL in Termux.">
+<meta property="og:url" content="https://termhub.xyz/xion198/post/how-to-install-and-setup-php-mysql-in-termux/">
+<meta property="og:site_property" content="TermHub">
+<meta property="og:image" content="https://termhub.xyz/xion198/img/post/default-featured.webp">
+
+
+<meta property="og:type" content="article">
+
+
+
+    <meta name="twitter:title" content="How to Install and Setup Php Mysql in Termux?"/>
+<meta name="twitter:description" content="Hello in this post i will guide you to How To install and Setup PHP and MySQL in Termux."/>
+
+    
+  </head>  
+   
+    <body class="has-navbar-fixed-top has-navbar-fixed-bottom mb-0">
+            
+    <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/xion198/">
+          <img src="/xion198/xion198/favicon-32x32.png" alt="TermHub">
+          TermHub
+        </a>
+        
+        <a class="navbar-item" href="/xion198/blog">
+          Blog
+        </a>
+        
+        <a class="navbar-item" href="/about">
+          About
+        </a>
+      
+        <a class="navbar-burger" data-target="menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      
+      <div id="menu" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Archives
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/categories">
+                By Categories
+              </a>
+              <a class="navbar-item" href="/tags">
+                By Tags
+              </a>
+              <a class="navbar-item" href="/archives">
+                By Dates
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="panel">
+            <div class="panel-block">
+              <p class="control has-icons-left">
+                <input class="input" type="text" placeholder="Search...." id="search-input" />
+                <span class="icon is-small is-left">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+              </p>
+            </div>
+            <div class="search-result">
+              <ul id="search-result"><!--
+                <li class="box">
+                  <a href="#" class="subtitle">Result one</a>
+                  <p>This is the post content excerpt</p>
+                </li>
+                <li class="box">
+                  <a href="#" class="subtitle">Result two</a>
+                  <p>This is the post content excerpt</p>
+                </li>
+                </li>
+                <li class="box">
+                  <a href="#" class="subtitle">Result three</a>
+                  <p>This is the post content excerpt</p>
+                </li>
+                <div class="is-clearfix"></div>
+                -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+        
+                <section class="hero is-info">
+            <div
+                class="hero-body has-text-centered"
+                style="
+                    background-image: url('/img/post/default-featured.webp');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                ">
+                <h1 class="title">How to Install and Setup Php Mysql in Termux?</h1>
+                
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                                        <div class="column is-8 box">
+                        
+<section class="box">
+  <div class="block">
+    <h2 class="title is-3">
+      How to Install and Setup Php Mysql in Termux?
+    </h2>
+  </div>
+  <div class="is-clearfix"></div>
+  
+  <div class="field">
+    <div class="is-pulled-left">
+      <span class="tag is-primary is-small">
+        <span class="fa fa-user"></span> &nbsp;
+        <span>
+          Viliyam Vasava
+        </span>
+      </span>
+    </div>
+    
+    <div class="is-pulled-left">
+      <span class="tag is-light is-small">
+        <time datetime="2024-Feb-08T14:08:12" timeprop="datePublished">
+  <span class="fa fa-calendar"></span>
+  2024-Feb-08T14:08:12
+</time>
+
+      </span>
+    </div>
+  </div>
+  
+  <div class="is-clearfix"></div>
+  
+  <div class="field mt-3">
+    
+    <div class="is-pulled-left">
+      
+      <a href="/xion198/categories/Web-Development/">
+        <span class="tag is-dark is-small">
+          <span class="fa fa-folder"></span> &nbsp;
+          Web Development
+        </span>
+      </a>
+      
+      &nbsp;
+    </div>
+    
+    
+    <div class="is-pulled-left">
+      
+      <a href="/xion198/tags/php/">
+        <span class="tag is-info is-small">
+          <span class="fa fa-tag"></span> &nbsp;
+          php
+        </span>
+      </a>
+      
+      <a href="/xion198/tags/mysql/">
+        <span class="tag is-info is-small">
+          <span class="fa fa-tag"></span> &nbsp;
+          mysql
+        </span>
+      </a>
+      
+      <a href="/xion198/tags/termux/">
+        <span class="tag is-info is-small">
+          <span class="fa fa-tag"></span> &nbsp;
+          termux
+        </span>
+      </a>
+      
+      <a href="/xion198/tags/android/">
+        <span class="tag is-info is-small">
+          <span class="fa fa-tag"></span> &nbsp;
+          android
+        </span>
+      </a>
+      
+      &nbsp;
+    </div>
+    
+  </div>
+  
+  <div class="is-clearfix"></div>
+  
+  
+</section>
+                        
+                        <div class="content">
+                          <p>Hello in this post i will guide you to How To install and Setup PHP and MySQL in Termux.</p>
+<span id="more"></span>
+<p><strong>Prerequisites:</strong></p>
+<ul>
+<li><strong>Termux app:</strong> Download and install the Termux app from the Google Play Store or F-Droid if you haven’t already.</li>
+</ul>
+<p><strong>Installation:</strong></p>
+<ol>
+<li><p><strong>Update package lists:</strong> In the Termux app, type the following command and press Enter:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pkg update</code></pre>
+</li>
+<li><p><strong>Install PHP:</strong> Choose your preferred version and install it using the corresponding command:</p>
+<ul>
+<li><p><strong>Latest version:</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pkg install php</code></pre>
+</li>
+<li><p><strong>Specific version (e.g., 8.1):</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pkg install php8.1</code></pre></li>
+</ul>
+</li>
+<li><p><strong>Install MySQL (MariaDB):</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pkg install mariadb</code></pre>
+</li>
+<li><p><strong>Secure MySQL:</strong></p>
+<ul>
+<li><p>Start the MySQL server:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">mysql_secure_installation</code></pre>
+</li>
+<li><p>Follow the prompts to set a root password, remove anonymous users, disallow remote root access, and remove the test database.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Configuration:</strong></p>
+<ol>
+<li><p><strong>Start MySQL:</strong></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">mysql_start</code></pre>
+</li>
+<li><p><strong>(Optional) Install extensions:</strong> If you need specific PHP extensions, use <code>pkg install</code> with the extension name, e.g., <code>pkg install php-curl</code>.</p>
+</li>
+<li><p><strong>Write and test a PHP script:</strong> Create a <code>.php</code> file (e.g., <code>test.php</code>) in your desired directory and add some simple PHP code, such as:</p>
+<pre class="line-numbers language-php" data-language="php"><code class="language-php">&lt;?php
+phpinfo();
+?&gt;</code></pre>
+</li>
+<li><p><strong>Run the script:</strong></p>
+<ul>
+<li><p>Find the path to PHP’s CLI:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">which php</code></pre>
+</li>
+<li><p>Run the script using the found path:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;usr&#x2F;bin&#x2F;php &#x2F;path&#x2F;to&#x2F;test.php</code></pre>
+</li>
+<li><p>Open the output URL (usually <code>http://127.0.0.1:80/test.php</code>) in your web browser to see the PHP info page.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Additional considerations:</strong></p>
+<ul>
+<li>If you want a full web server setup, you can install an HTTP server like Apache2 (<code>pkg install apache2</code>) and configure it to serve your PHP files.</li>
+<li>Remember to secure your installation by setting strong passwords and considering appropriate access controls.</li>
+<li>For more advanced usage and troubleshooting, refer to the official documentation for PHP, MySQL, and the chosen HTTP server.</li>
+</ul>
+<p>I hope this comprehensive guide helps you successfully install and set up PHP and MySQL on Termux!</p>
+
+                        </div>
+                        
+                                                <nav class="mt-5 pagination is-small is is-centered">
+                          
+                            <a class="pagination-previous is-disabled">Previous</a>
+                          
+                          
+                          
+                            <a href="/xion198/post/unlock-your-phones-secret-superpower-the-beginer-termux-guide/" class="pagination-next">Next</a>
+                          
+                        </nav>
+                      </div>
+                                        <div class="column is-4 box">
+                        <div class="box">
+                          
+                            <h2 class="title is-4">Recent Posts</h2>
+<ul id="recentPostsList"></ul>
+<script type="text/javascript" src="/js/recent-posts.js"></script>
+                          
+                          <h2 class="title is-4">About me</h2>
+                          <p>
+                            Hello I am Viliyam Vasava. I am developing the Hexo Static Site.
+                          </p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+              
+        <footer class="footer" style="">
+            <div class="container">
+                <p class="has-text-centered">
+                    Copyright &copy; 2023 Bulma Template. All rights reserved.
+                </p>
+                <p class="has-text-centered">
+                  <a title="Web Analytics" href="https://clicky.com/101442154"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+                  <script async data-id="101442154" src="//static.getclicky.com/js"></script>
+
+                </p>
+            </div>
+        </footer>
+        <nav id="buttom-ad" class="is-fixed-bottom" aria-label="buttom ad">
+            <div class="adspace">
+                <a class="" href="/">
+                    <img src="ad.jpg" alt="turmhub"/>
+                </a>
+            </div>
+        </nav>
+        <style type="text/css" media="all">
+            #buttom-ad .adspace {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                padding: 0px;
+                text-align: center;
+                margin-bottom: 0;
+            }
+            #buttom-ad img {
+                width: 100%;
+                max-width: 720px;
+                height: auto;
+                max-height: 50px;
+            }
+            pre code { background-color: #f5f5f5; }
+        </style>
+        <script src="/js/bulma.js"></script>
+<script src="/js/prism.js"></script>
+<script src="https://unpkg.com/lunr@2.3.9/lunr.js" defer></script>
+
+    </body>
+</html>

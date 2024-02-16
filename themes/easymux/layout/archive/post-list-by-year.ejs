@@ -1,0 +1,63 @@
+                    <%
+                      function groupBy(posts, archive){
+                        return posts.reduce(function(acc,obj){
+                          var key = obj[archive];
+                          
+                          if(!acc[key]){
+                            acc[key] = []
+                          }
+                          
+                          acc[key].push(obj);
+                          return acc;
+                        },{});
+                      }
+                      
+                      const posts = page.posts.map(post => ({
+                        ...post, year: date(post.date, 'YYYY')
+                      }))
+                      
+                      const postByYear = groupBy(posts,'year')
+                      
+                      const postsSorted = Object.keys(postByYear).sort(date,-1).reverse()
+                    %>
+                    <div class="column is-8">
+                      <h2 class="title is-4">
+                        <span class="fa fa-calendar"></span>
+                        <%- archive_title %>
+                      </h2>
+                            
+                      <div class="columns is-multiline">
+                        
+                          <% postsSorted.forEach(function(year){%>
+                          <div class="box column is-full-mobile is-half-tablet is-one-third-widescreen">
+                            <h2 class="title is-4">
+                              <span class="fa fa-calendar-plus"></span>
+                              <%- year %>
+                            </h2>
+                            
+                            <ul>
+                              <% postByYear[year].forEach(function(post){%>
+                              <li>
+                                <div class="is-pulled-left">
+                                  <span class="fa fa-caret-right"></span>
+                                  <a>
+                                    <%- post.title %>
+                                  </a>
+                                </div>
+                                <div class="is-pulled-right">
+                                  <time>
+                                    <%- date(post.date, 'DD, MMM') %>
+                                    <span class="fa fa-calendar"></span>
+                                  </time>
+                                </div>
+                                <div class="is-clearfix"></div>
+                              </li>
+                              <%}) %>
+                            </ul>
+                          </div>
+                          <div class="is-clearfix"></div>
+                          <%}) %>
+                      </div>
+                    </div>
+                  
+                    

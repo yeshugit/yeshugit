@@ -1,0 +1,7 @@
+<% var layout= 'easymux'
+  if(page.layout == 'data/recent-posts' || page.layout == 'data/tags'){
+    layout = page.layout
+  }else if(page.layout == 'data/search'){
+    layout = page.layout
+  } %>
+<%- partial(layout) %>

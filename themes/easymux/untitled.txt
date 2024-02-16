@@ -1,0 +1,38 @@
+const path = require('path');
+const { spawn } = require('child_process');
+
+async function main() {
+  // Get the current working directory (CWD)
+  const cwd = process.cwd();
+
+  // Check if we're inside a Hexo project directory
+  if (!path.existsSync(path.join(cwd, '_config.yml'))) {
+    console.error('Not in a Hexo project directory. Exiting.');
+    return;
+  }
+
+  // Get the command and arguments
+  const command = process.argv[2]; // Assuming 'hexo' is already executed, command is at index 2
+  const args = process.argv.slice(3); // Get arguments starting from index 3
+
+  // Check if it's a 'hexo new' command
+  if (command !== 'new') {
+    return; // Not relevant, no need to display message
+  }
+
+  // Spawn a child process to execute the real 'hexo new' command
+  const hexoNewProcess = spawn('hexo', ['new', ...args]); // Pass the original arguments
+
+  // Listen for 'close' event to capture exit code
+  hexoNewProcess.on('close', (code) => {
+    if (code === 0) { // Command executed successfully
+      const isPage = args[0].startsWith('"') && args[0].endsWith('"'); // Check for quotes
+
+      console.log(`Hello World! This is a ${isPage ? 'page' : 'post'} creation command.`);
+    } else {
+      console.error(`Hexo new command failed with exit code ${code}`);
+    }
+  });
+}
+
+main();
