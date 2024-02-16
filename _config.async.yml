@@ -101,11 +101,11 @@ banner:
   default:
     type: img
     bgurl: /img/banner.png
-    bannerText: Hi my new friend!
+    bannerText: Praise The LORD with songs of GOD.
     position: top
     fit: cover
   index:
-    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerTitle: Yeshu Git, <br> Lyrics.
     bannerText: Hi my new friend!
     videoUrl: 
   archive:
