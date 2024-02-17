@@ -11,6 +11,7 @@ Aye duniya ke logon Oonchi aawaz karo
 Gao khushi ke geet, Uska gungaan karo
 
 Ibadat karo uski, ibadat karo
+<!--more-->
 
 Yaad rakho ke, wahi ik khuda hai
 
