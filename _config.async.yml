@@ -3,14 +3,14 @@ open_graph: true
 
 # User info
 user:
-  name: ThemeAsync
-  first_name: Theme
-  last_name: Async
+  name: SuvarnaGavit
+  first_name: Suvarna
+  last_name: Gavit
   email: 
-  domain: 站点域名
+  domain: Domaon ?
   avatar: /img/avatar.jpg
-  describe: 网站简介。
-  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+  describe: User describe
+  ruleText: User rule Text
 
 # Configure the icon information of the site
 favicon:
@@ -97,7 +97,7 @@ top_bars:
 
 # Banner settings
 banner:
-  use_cover: false
+  use_cover: true
   default:
     type: img
     bgurl: /img/banner.png
@@ -106,19 +106,19 @@ banner:
     fit: cover
   index:
     bannerTitle: Yeshu Git, <br> Lyrics.
-    bannerText: Hi my new friend!
+    bannerText: Praise The LORD with Songs.
     videoUrl: 
   archive:
-    bannerTitle: 云间连下榻，<br>天上接行杯。
-    bannerText: The article archive
+    bannerTitle: Article
+    bannerText: The lyeics archive
   links:
-    bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+    bannerTitle: Friend's links.
     bannerText: A link to a friend's website
   comment:
-    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerTitle: Comments
     bannerText: The magic tree hole
   about:
-    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerTitle: Here is 
     bannerText: About me
 
 # Sidebar settings
@@ -135,7 +135,7 @@ sidebar:
 
 # About page settings
 about:
-	insert: none # before | after | none
+	insert: after # before | after | none
   title: 如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。
   introduction: 大家好，我是 <strong>Async</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
   blog: 
@@ -157,12 +157,12 @@ footer:
     enable: false
     icp: 
   # Copyright date
-  copyrightYear:
+  copyrightYear: 2024
   # 
   live_time:
     enable: false
     prefix: footer.tips
-    start_time: 04/10/2022 17:00:00
+    start_time: 14/02/2024 17:00:00
   #
   custom_text:
 
@@ -259,7 +259,7 @@ comment:
 # Theme mode 
 theme: 
   switch: true 
-  default: style-light # style-light style-dark
+  default: style-dark # style-light style-dark
 
 # Service Worker
 sw: false
