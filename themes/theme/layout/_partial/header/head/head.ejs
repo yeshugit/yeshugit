@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%- page.title || config.title %></title>
     <%- open_graph() %>
+    <meta property="og:image" content="<%- full_url_for(page.cover || theme.cover) %>">
     
     
     <% if(theme.favicon.androidchrome512){ %>

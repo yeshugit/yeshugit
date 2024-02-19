@@ -3,12 +3,40 @@ title: Kuch Pal Lyrics
 date: 2024-02-19 10:58:22
 tags: ['Friends of God Ministries','Abc Increase']
 categories:
-keyworda:
+keyworda: ['kuch pal Lyrics','Lagta Hai Mujhe Main Zinda Hoon Lyrics']
 cover: /img/kuch-pal.webp
-description: 'Kuch Pal is a hindi christian song created by the Friends Of God Ministries & Abc Increase'
+description: 'Kuch Pal is a hindi christian song by the Friends Of God Ministries & ABC Increase'
 artist: 'Friends Of God Ministries'
 ---
-### Hindi : {{title}}
+## English (Hinglish) Lyrics : {{title}}
+Kuch Pal Jo Tere Sath Baitha Hoon
+Lagta Hai Mujhe Main Zinda Hoon x2
+
+Ab Bhi Mujhme Sans Baaki Hai
+Tere Saye Mein Main Khush Rehta Hoon
+Lagta Hai Mujhe Main Zinda Hoon
+
+Kuch Alag Si Yeh Baat Hai
+Chahe Jo Bhi Halaat Hai
+Is Dil Ko Sukoon Hai
+Yeshu Tu Jo Mere Sath Hai
+Kya Pata Tha Mujhe Tu Mohabbat Hai
+Is Dil Ko Toh Bas Teri Hasrat Hai
+Lagta Hai Mujhe Main Zinda Hoon
+
+Repeat "Ab Bhi Mujhme"
+
+Tere Kandhe Pe Sar Ho Mera
+Aur Ro Loon Yuhin Chand Pal
+Meri Nazrien Tujhi Par Tiki
+Waqt Tham Jaye Din Jaye Dhal
+Koi Tujhsa Nahi Khoobsurat Hai
+Is Dil Ko Toh Bas Teri Hasrat Hai
+Lagta Hai Mujhe Main Zinda Hoon
+
+Repeat "Kuch Pal"
+
+## Hindi Lyrics : {{title}}
 कुछ पल जो तेरे ,साथ बैठा हूँ
 
 लगता है मुझे , मैं ज़िंदा हूँ

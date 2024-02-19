@@ -1,23 +1,25 @@
 <div class="column">
   <div class="block box">
-    <figure class="image is-16by9 has-text-centered">
-      <img style="border-radius: 5px" src="<%- url_for(page.cover) %>" alt="<%- page.title %>" />
-    </figure>
-    
-    <p>
-      <strong>Description : </strong>
-      <%- page.description %>
-    </p>
-    <p>
-      <strong>Arrist : </strong>
-      <%- page.artist %>
-    </p>
-    <br>
-    <div class="content box">
-      <p class="subtitle">Table Of Contents</p>
-      <%- toc(page.content) %>
+    <div class="box">
+      <figure class="image is-16by9 has-text-centered">
+        <img style="border-radius: 5px" src="<%- url_for(page.cover) %>" alt="<%- page.title %>" />
+      </figure>
+      
+      <p>
+        <strong>Description : </strong>
+        <%- page.description %>
+      </p>
+      <p>
+        <strong>Arrist : </strong>
+        <%- page.artist %>
+      </p>
+      <br>
+      <div class="content">
+        <p class="title is-3">List of Contents</p>
+        <%- toc(page.content) %>
+      </div>
+      
     </div>
-    <br>
     
     <div class="content has-text-centered">
       <%- page.content %>

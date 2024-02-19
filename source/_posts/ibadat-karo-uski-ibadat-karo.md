@@ -13,7 +13,7 @@ Ibadat karo uski, ibadat karo
 '
 artist: 'Anil Kant'
 ---
-### HinGlish : {{title}}
+## English (HinGlish) Lyrics : {{title}}
 
 Aye Duniya Ke Logo
 Unchi Aawaz Karo
@@ -42,7 +42,7 @@ Ke Geet Uska Gungaan Karo
  
 Ibadat Kato Uski Ibadat Karo
 
-### Hindi : {{title}}
+## Hindi Lyrics : {{title}}
 
 हए दुनिया के लोगो
 ऊँची आवाज़ करो 
