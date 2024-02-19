@@ -1,12 +1,26 @@
 <div class="column">
-  <div class="content has-text-centered">
-    <figure class="image is-16by9">
+  <div class="block box">
+    <figure class="image is-16by9 has-text-centered">
       <img style="border-radius: 5px" src="<%- url_for(page.cover) %>" alt="" />
     </figure>
     
-    <p class="title is-4"><%- page.title %></p>
     <p>
-      <%- page.content %>
+      <strong>Description : </strong>
+      <%- page.description %>
     </p>
+    <p>
+      <strong>Arrist : </strong>
+      <%- page.artist %>
+    </p>
+    <br>
+    <div class="content box">
+      <p class="subtitle">Table Of Contents</p>
+      <%- toc(page.content) %>
+    </div>
+    <br>
+    
+    <div class="content has-text-centered">
+      <%- page.content %>
+    </div>
   </div>
 </div>
