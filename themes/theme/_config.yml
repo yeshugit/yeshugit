@@ -1,1 +1,9 @@
 cover: /img/yeshu-git-lyrics.webp
+favicon:
+  androidchrome512: /android-chrome-512x512.png
+  androidchrome192: /android-chrome-192x192.png
+  appletouchicon: /apple-touch-icon.png
+  favicon16: /favicon-16x16.png
+  favicon32: /favicon-32x32.png
+  faviconico: /favicon.ico
+  site-webmanifest: /site.webmanifest

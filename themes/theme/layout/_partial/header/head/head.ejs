@@ -1,0 +1,39 @@
+
+    <meta name="google-site-verification" content="0nmry4laWuhQRtJarMf76fgMiD3AmnviX7VyumbteOY" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeshu Git</title>
+    <%- open_graph() %>
+    
+    
+    <% if(theme.favicon.androidchrome512){ %>
+    <link rel="icon" href="<%- url_for(theme.favicon.androidchrome512) %>">
+    <%} %>
+    
+    
+    <% if(theme.favicon.androidchrome192){ %>
+    <link rel="icon" href="<%- url_for(theme.favicon.androidchrome192) %>">
+    <%} %>
+    
+    <% if(theme.favicon.appletouchicon){ %>
+    <link rel="apple-touch-icon" href="<%- url_for(theme.favicon.appletouchicon) %>">
+    <%} %>
+    
+     <% if(theme.favicon.favicon32){ %>
+    <link rel="icon" type="image/png" sizes="32x32" href="<%- url_for(theme.favicon.favicon32) %>">
+    <%} %>
+    
+    <% if(theme.favicon.favicon16){ %>
+    <link rel="icon" type="image/png" sizes="16x16" href="<%- url_for(theme.favicon.favicon16) %>">
+    <%} %>
+    
+    <% if(theme.favicon.faviconico){ %>
+    <link rel="icon" type="image/icon" href="<%- url_for(theme.favicon.faviconico) %>">
+    <%} %>
+    
+    <% if(theme.favicon.webmanifest){ %>
+    <link rel="manifest" href="<%- url_for(theme.favicon.webmanifest) %>">
+    <%} %>
+    
+    
+    <%- css('/css/bulma.css','/css/fa.css') %>
