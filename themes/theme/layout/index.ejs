@@ -1,0 +1,23 @@
+<div class="column">
+  <h2 class="title">Main Contents</h2>
+  <div class="columns is-multiline is-flex">
+    <% page.posts.each(function(post){%>
+     
+    <div class="p-1 column is-half-mobile is-4-tablet is-3-desktop">
+      <div class="box p-0">
+        <a href="<%- url_for(post.path) %>">
+          <figure class="image is-5by3">
+            <img src="<%- url_for(post.cover || theme.cover) %>" alt="<%- post.title %>" />
+          </figure>
+          <p class="is-5 p-1">
+            <%- post.title %>
+          </p>
+        </a>
+      </div>
+    </div>
+    
+    <%}) %>
+    <div class="is-clearfix"></div>
+  </div>
+  
+</div>

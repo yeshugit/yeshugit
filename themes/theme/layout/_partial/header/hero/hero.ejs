@@ -1,0 +1,22 @@
+<section class="hero is-dark hero-background">
+  <div class="hero-body has-text-centered">
+    <h1 style="opacity:1" class="title"><%- page.title || config.title %></h1>
+    <!--<p class="subtitle has-background-black"><%- page.description || '' %></p>-->
+    
+  </div>
+</section>
+<style>
+  .hero-background{
+    background-image: url('<%- url_for(page.cover || theme.cover) %>');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-body{
+    background-color: rgba(0,0,0,0.7);
+  }
+  .hero-body *{
+    opacity: 1;
+  }
+</style>
