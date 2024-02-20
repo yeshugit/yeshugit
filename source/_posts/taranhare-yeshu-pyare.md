@@ -5,7 +5,7 @@ tags: ['Friends of God Ministries']
 categories: ['Devotional Songs']
 keywords: ['Taranhare lyrics','Taranhare yeshu pyare lyrics','FriendsofGOD']
 cover: /img/tarnhare.webp
-desscription: '#Taranhare by #FriendsofGOD is based on Isaiah 43:11. It is a prayer that may you be touched and be blessed by this song. All glory and honour be to JESUS alone.'
+description: '#Taranhare by #FriendsofGOD is based on Isaiah 43:11. It is a prayer that may you be touched and be blessed by this song. All glory and honour be to JESUS alone.'
 youtube: https://youtube.com/embed/yTn3_WV4WR4
 ---
 ## English (Hinglish) Lyrics : {{title}} 
