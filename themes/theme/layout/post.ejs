@@ -2,7 +2,7 @@
   <div class="block box">
     <div class="box">
       <figure class="image is-16by9 has-text-centered">
-        <img style="border-radius: 5px" src="<%- url_for(page.cover) %>" alt="<%- page.title %>" />
+        <img style="border-radius: 5px" src="<%- url_for(page.cover || theme.cover) %>" alt="<%- page.title %>" />
       </figure>
       
       <p>
