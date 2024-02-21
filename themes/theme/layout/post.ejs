@@ -5,14 +5,17 @@
         <img style="border-radius: 5px" src="<%- url_for(page.cover || theme.cover) %>" alt="<%- page.title %>" />
       </figure>
       
-      <p>
+      <P>
         <strong>Description : </strong>
         <%- page.description %>
-      </p>
+      </P>
+      
+      <% if(page.artist){%>
       <p>
         <strong>Arrist : </strong>
         <%- page.artist %>
       </p>
+      <%} %>
       <br>
       <div class="content">
         <p class="title is-3">List of Contents</p>
