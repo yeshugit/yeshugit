@@ -2,10 +2,10 @@
 title: {{ title }}
 date: {{ date }}
 tags: []
-categories:[]
+categories: []
 keywords: []
 cover: /img/yeshu-git-lyrics.webp
-desscription: 
+description: 
 youtube: 
 ---
 ## English (Hinglish) Lyrics : {{title}}

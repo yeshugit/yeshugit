@@ -5,8 +5,13 @@ tags: ['Friends of God Ministries','Abc Increase']
 categories: ['Devotional Songs']
 keywords: ['kuch pal Lyrics','Lagta Hai Mujhe Main Zinda Hoon Lyrics']
 cover: /img/kuch-pal.webp
-description: 'Kuch Pal is a hindi christian song by the Friends Of God Ministries & ABC Increase'
+description: |
+  Kuch Pal is a hindi christian song
+  by the Friends Of God Ministries & ABC Increase'
 youtube: https://youtube.com/embed/QgyE0bDZfRo
+credit: |
+  this is line 1
+  this is line 2
 ---
 ## English (Hinglish) Lyrics : {{title}}
 Kuch Pal Jo Tere Sath Baitha Hoon
