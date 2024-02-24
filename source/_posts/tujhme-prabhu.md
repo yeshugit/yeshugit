@@ -4,8 +4,8 @@ tags: []
 categories: ['Devotional Songs']
 keywords: ['Tujhme Prabhu Bana Mein Rahun lyrics','Tujhme Prabhu lyrics']
 cover: /img/tujhme-prabhu.webp
-date: 2024-02-22 16:28:58
-description: 'The song "Tujhme Prabhu Bana Mein Rahun" is a Hindi devotional song expressing a deep desire for spiritual transformation and devotion to God.'
+date: 2024-02-22 16:28:53
+description: 'The song "Tujhme Prabhu Bana Mein Rahun" is a Hindi devotional song expressing a deep desire for spiritual transformation and devotion to GOD'
 youtube: https://youtube.com/embed/Zc5bXLjfZyQ
 ---
 ## English (Hinglish) Lyrics : {{title}}

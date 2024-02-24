@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /lyrics/*
+
+Sitemap: https://yeshugit.netlify.app/sitemap.xml
