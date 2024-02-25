@@ -76,6 +76,6 @@ Repeat "Kuch Pal"
 ## Youtube video Link for : {{title}}
 <figure class="image is-16by9">
 <iframe class="has-ratio" width="640" height="360"
-src={{youtube}}
+src="{{youtube}}"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
