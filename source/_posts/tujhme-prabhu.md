@@ -1,7 +1,7 @@
 ---
 title: Tujhme Prabhu Bana Mein Rahun
 description: >-
-  The song "Tujhme Prabhu Bana Mein Rahun" is a Hindi devotional song expressing
+  The song Tujhme Prabhu Bana Mein Rahun is a Hindi devotional song expressing
   a deep desire for spiritual transformation and devotion to GOD
 lyrics_en: |
   <p><strong> Verse 1 </strong></p>
