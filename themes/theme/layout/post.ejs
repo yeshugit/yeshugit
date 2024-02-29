@@ -4,11 +4,21 @@
       <figure class="image is-16by9 has-text-centered">
         <img style="border-radius: 5px" src="<%- url_for(page.cover || theme.cover) %>" alt="<%- page.title %>" />
       </figure>
-      
+       
       <P>
         <strong>Description : </strong>
         <%- page.description %>
       </P>
+      
+      <% if(page.categories){%>
+      <strong>Categpry: </strong>
+      <div class="tags">
+        <% page.categories.each((category)=>{%>
+          <a class="tag is-small is-dark" href="<%- url_for(category.path) %>">
+            <%- category.name %>
+          </a>
+        <%}); %>
+      </div><%} %>
       
       <% if(page.artist){%>
       <p>
@@ -21,11 +31,26 @@
         <p class="title is-3">List of Contents</p>
         <%- toc(page.content) %>
       </div>
-      
     </div>
     
     <div class="content has-text-centered">
       <%- page.content %>
     </div>
+    
+    <% if(page.tags){%>
+    <p class="subtitle">Tags: </p>
+    <div class="field is-grouped is-grouped-multiline">
+      <% page.tags.each((tag)=>{%>
+        <div class="control">
+          <div class="tags has-addons">
+            <a class="tag is-small is-success" href="<%- url_for(tag.path) %>">
+              <%- tag.name %>
+            </a>
+            <span class="tag is-small is-dark"><%- tag.length %></span>
+          </div>
+        </div>
+      <%}); %>
+    </div><%} %>
+      
   </div>
 </div>

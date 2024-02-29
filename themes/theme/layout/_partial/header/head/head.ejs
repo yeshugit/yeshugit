@@ -7,6 +7,12 @@
     })
   }
   keywords += config.keywords;
+  if(is_tag()){
+    page.title = 'Tag: ' + page.tag + ' - ' + config.title; 
+  }
+  if(is_category()){
+    page.title = 'Category: ' + page.category + ' - ' + config.title;
+  }
 %>
     <meta name="google-site-verification" content="0nmry4laWuhQRtJarMf76fgMiD3AmnviX7VyumbteOY" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
