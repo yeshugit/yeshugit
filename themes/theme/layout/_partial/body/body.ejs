@@ -5,12 +5,45 @@
           
       <div class="column is-4">
         <div class="box">
-          <p class="subtitle">About <%- config.title %></p>
-            <p>
-              <%- config.description %>
-            </p>
-          </div>
+          <p class="subtitle">Search Lyrics</p>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="field has-addons">
+              <div class="control has-icons-left">
+                <input class="input" type="search" name="q" class="search-form-input" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="https://yeshugit.netlify.app">
+                <span class="icon is-left">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+              <div class="control">
+                <button type="submit" class="button is-info">
+                  <span class="fa fa-search"></span>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
+        
+        <div class="box">
+          <p class="subtitle">Categories</p>
+          <nav class="menu">
+            <ul id="categories" class="">
+            </ul>
+          </nav>
+        </div>
+        <script>
+          
+        </script>
+        
+        <div class="box">
+          <p class="subtitle">About <%- config.title %></p>
+          <p>
+            <%- config.description %>
+          </p>
+        </div>
+        
+        
+      </div>
           
       </div>
     </div>    

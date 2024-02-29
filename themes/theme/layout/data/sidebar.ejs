@@ -1,0 +1,20 @@
+const categories = [<%const catList = [];site.categories.each((cat)=>{if(!catList.includes(cat.name)){catList.push(cat.name);%>{name: '<%- cat.name %>',path: '<%- url_for(cat.path) %>',count: <%- cat.length %>},<%}});%>];
+
+function renderSidebar(){
+  renderCategories();
+  renderrecentPosts();
+}
+
+function renderCategories(){
+  const categoryList = document.getElementById('categories');
+  categoryList.innerHTML = '';
+  
+  categories.forEach((category)=>{
+    categoryList.innerHTML += '<li class="tags has-addons"><a class="tag is-info is-small" href="'+category.path+'">'+category.name+'</a><span class="tag is-dark is-small">'+category.count+'</span></li>';
+  });
+}
+
+function renderrecentPosts(){
+}
+
+document.addEventListener('DOMContentLoaded',renderSidebar);

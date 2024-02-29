@@ -1,4 +1,7 @@
 <%
   var layout = 'default';
+  if(page.layout == 'data/sidebar'){
+    layout = 'data/sidebar'
+  }
 %>
 <%- partial(layout) %>
