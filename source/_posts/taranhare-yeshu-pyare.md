@@ -55,8 +55,7 @@ categories:
   - Worship Songs
 tags:
   - Friends of God Ministries
-Keywords: 
-  - Taranhare lyrics
+keywords:  ['Taranhare lyrics','Taranhare']
 ---
 ## English Lyrics : {{title}}
 {{lyrics_en}}

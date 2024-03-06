@@ -39,12 +39,11 @@ description: >-
   The song is a devotional hymn, expressing deep devotion and love for Jesus.
   The lyrics describe the complete dependence on Jesus, desire to be like him,
   and  gratitude for love and guidance.
-categories:
-  - Devotional Songs
-tags:
-  - Friends of God Ministries
-Keywords: 
-  - Kuch teri tarah lyrics
+categories: 
+  - 'Devotional Songs'
+tags: 
+  - 'Friends of God Ministries'
+keywords: ['Kuch teri tarah lyrics','Kuch teri tarah']
 ---
 ## English Lyrics : {{title}}
 {{lyrics_en}}
