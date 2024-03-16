@@ -1,0 +1,26 @@
+<div class="column">
+  <article class="block box">
+    <div class="content">
+      <% if(page.toc == true){%>
+      <h2 class="title is-3">Table Of Contents:</h2>
+      <%- toc(page.content,{list_number:false}) %>
+      <%} %>
+      <%- page.content %>
+    </div>
+    
+    <% if(page.tags){%>
+    <p class="subtitle">Tags: </p>
+    <div class="field is-grouped is-grouped-multiline">
+      <% page.tags.each((tag)=>{%>
+        <div class="control">
+          <div class="tags has-addons">
+            <a class="tag is-small is-success" href="<%- url_for(tag.path) %>">
+              <%- tag.name %>
+            </a>
+            <span class="tag is-small is-dark"><%- tag.length %></span>
+          </div>
+        </div>
+      <%}); %>
+    </div><%} %>
+  </article>
+</div>

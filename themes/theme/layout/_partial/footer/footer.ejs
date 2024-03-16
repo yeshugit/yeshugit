@@ -1,6 +1,10 @@
     <footer class="footer">
       <div class="has-text-centered">
-        <p>copyright &copy; <%- config.title %> 2024 - 2024. </p>
+        <a href="<%- url_for('/privacy-policy/') %>">Privacy Policy</a> - 
+        <a href="<%- url_for('/terms-of-use/') %>">Terms Of Use</a> - 
+        <a href="<%- url_for('/contact-us/') %>">Contact Us</a>
+        <p>|</p>
+        <p>copyright &copy; <%- config.title %> 2024 - <span id="year"></span>. All Rights Are Reserved.</p>
         <p>
           <a title="Privacy-friendly Web Analytics" href="https://clicky.com/101446784"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
           <script async data-id="101446784" src="//static.getclicky.com/js"></script>
@@ -18,5 +22,9 @@
         s.src = (document.location.protocol == "https:" ? "https://cdn0.cuelinks.com/js/" : "http://cdn0.cuelinks.com/js/")  + "cuelinksv2.js";
         document.getElementsByTagName("body")[0].appendChild(s);
       }());
-      </script>
+      
+        var date = new Date();
+        year = date.getFullYear();
+        document.getElementById('year').innerHTML = year;
+    </script>
   </body>

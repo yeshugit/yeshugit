@@ -15,7 +15,7 @@ description: >
 youtube: https://youtube.com/embed/4v_WiS2DurY
 ---
 ## English (Hinglish) Lyrics - {{title}}
-### **yeshu ne hume chudaya hai lyrics**
+**yeshu ne hume chudaya hai lyrics**
 **Verse 1**
 
 Yeshu ne hamen chhudaaya hai, Paapon ke jaal se
@@ -53,7 +53,7 @@ Shaalom shaanti aur salaam, Ye hai yeshu ka paigaam -(2)
 To gao haaleluyyaah -(4)
 
 ## Hindi Lyrics - {{title}}
-### **येशु ने हमे छुड़ाया है Lyrics**
+**येशु ने हमे छुड़ाया है Lyrics**
 **Verse 1**
 
 येशु ने हमे छुड़ाया है , पापो के जाल से।

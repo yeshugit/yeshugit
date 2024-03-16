@@ -11,14 +11,15 @@
       </P>
       
       <% if(page.categories){%>
-      <strong>Category: </strong>
+      <p>
       <div class="tags">
+        <span class="tag is-small is-dark fa fa-folder"></span> 
         <% page.categories.each((category)=>{%>
           <a class="tag is-small is-dark" href="<%- url_for(category.path) %>">
             <%- category.name %>
           </a>
         <%}); %>
-      </div><%} %>
+      </div></p><%} %>
       
       <% if(page.artist){%>
       <p>
@@ -29,7 +30,7 @@
       <br>
       <div class="content">
         <p class="title is-3">List of Contents</p>
-        <%- toc(page.content) %>
+        <%- toc(page.content,{list_number:false}) %>
       </div>
     </div>
     

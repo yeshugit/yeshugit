@@ -1,5 +1,7 @@
 const categories = [<%const catList = [];site.categories.each((cat)=>{if(!catList.includes(cat.name)){catList.push(cat.name);%>{name: '<%- cat.name %>',path: '<%- url_for(cat.path) %>',count: <%- cat.length %>},<%}});%>];
 
+const recent = [<% site.posts.reverse().limit(5).each((post) => {%>{title: '<%- post.title %>',path: '<%- url_for(post.path) %>',cover: '<%- url_for(post.cover) %>'},<%}); %>];
+
 function renderSidebar(){
   renderCategories();
   renderrecentPosts();
@@ -15,6 +17,12 @@ function renderCategories(){
 }
 
 function renderrecentPosts(){
+  const recentPost = document.getElementById('recent');
+  recentPost.innerHTML = '<h2 class="title is-3">Recent Lyrics</h2>';
+  
+  recent.forEach((post)=>{
+    recentPost.innerHTML += '<a href="'+post.path+'"><div class="media"><figure class="media-left"><p class="image is-96x96"><img src="'+post.cover+'" title="'+post.title+'" /></p></figure><div class="media-content"><p>'+post.title+'</p></div></div></a>';
+  });
 }
 
 document.addEventListener('DOMContentLoaded',renderSidebar);
