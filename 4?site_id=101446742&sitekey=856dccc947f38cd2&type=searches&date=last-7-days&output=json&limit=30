@@ -1,0 +1,13 @@
+[
+  {
+    "type": "searches",
+    "dates": [
+      {
+        "date": "2024-03-06,2024-03-12",
+        "items": [
+          { "value":"34", "value_percent":"100", "title":"[secure search]", "stats_url":"https://clicky.com/stats/visitors?site_id=101446742&date=2024-03-06,2024-03-12&search=%5Bsecure+search%5D" }
+        ]
+      }
+    ]
+  }
+]
