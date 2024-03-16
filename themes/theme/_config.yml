@@ -6,4 +6,4 @@ favicon:
   favicon16: /favicon-16x16.png
   favicon32: /favicon-32x32.png
   faviconico: /favicon.ico
-  site-webmanifest: /site.webmanifest
+  webmanifest: /site.webmanifest
