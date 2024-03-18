@@ -1,7 +1,7 @@
 ---
 title: yeshu ne hume chhudaya hai - gao halleluyah
 tags: ['Yeshua Ministries']
-categories: ['worship songs']
+categories: ['Worship Songs']
 keywords: ['yeshu ne hume chhudaaya hai','yeshu ne hume chudaya hai lyrics','gao halleluyah Lyrics','yeshu ne hamen chhudaaya hai Lyrics','Christian worship music']
 cover: /img/yeshu-ne-hume-chudaya-hai-lyrics.webp
 date: 2024-03-16 12:13:24
