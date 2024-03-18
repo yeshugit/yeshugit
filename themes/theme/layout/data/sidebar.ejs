@@ -12,7 +12,9 @@ function renderCategories(){
   categoryList.innerHTML = '';
   
   categories.forEach((category)=>{
-    categoryList.innerHTML += '<li class="tags has-addons"><a class="tag is-info is-small" href="'+category.path+'">'+category.name+'</a><span class="tag is-dark is-small">'+category.count+'</span></li>';
+    if(category.count > 0){
+      categoryList.innerHTML += '<li class="tags has-addons"><a class="tag is-info is-small" href="'+category.path+'">'+category.name+'</a><span class="tag is-dark is-small">'+category.count+'</span></li>';
+    }
   });
 }
 
