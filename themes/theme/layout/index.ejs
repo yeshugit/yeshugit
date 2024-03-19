@@ -20,4 +20,14 @@
     <div class="is-clearfix"></div>
   </div>
   
+  <nav class="pagination">
+    <%- paginator({
+    prev_next: true,
+    next_class: 'pagination-next',
+    prev_class: 'pagination-previous',
+    page_class: 'pagination-link',
+    current_class: 'pagination-link is-current',
+    space_class: 'pagination-ellipsis',
+    }) %>
+  </nav>
 </div>
