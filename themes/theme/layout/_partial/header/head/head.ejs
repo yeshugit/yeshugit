@@ -13,12 +13,16 @@
   if(is_category()){
     page.title = 'Category: ' + page.category + ' - ' + config.title;
   }
+  
+  language = page.lang || config.language;
+  
 %>
     <meta name="google-site-verification" content="0nmry4laWuhQRtJarMf76fgMiD3AmnviX7VyumbteOY" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%- page.title || config.title %></title>
     <meta name="keywords" content="<%- keywords %>" />
+    
     <%- open_graph() %>
     <meta property="og:image" content="<%- full_url_for(page.cover || theme.cover) %>">
     
