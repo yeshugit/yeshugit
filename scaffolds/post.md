@@ -1,5 +1,5 @@
 ---
-title: {{ title }}
+title: {{ title }} Lyrics
 date: {{ date }}
 tags: []
 categories: []
@@ -8,15 +8,14 @@ cover: /img/yeshu-git-lyrics.webp
 description: 
 youtube: 
 ---
-## English (Hinglish) Lyrics - {{title}}
+## {{title}} in English (Hinglish)
+**{{title}}**
+
+## {{title}} in Hindi
 
 
 
-## Hindi Lyrics - {{title}}
-
-
-
-## Youtube Link For - {{title}}
+## Youtube Video Link For {{title}}
 <figure class="image is-16by9">
 <iframe class="has-ratio" width="640" height="360"
 src="{{youtube}}"

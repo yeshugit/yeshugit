@@ -6,6 +6,17 @@
       keywords += keyword + ', ';
     })
   }
+  if(page.tags){
+    page.tags.each((item)=>{
+      keywords += item.name +', ';
+    });
+  }
+  if(page.categories){
+    page.categories.each((item)=>{
+      keywords += item.name +', ';
+    });
+  }
+  
   keywords += config.keywords;
   if(is_tag()){
     page.title = 'Tag: ' + page.tag + ' - ' + config.title; 
@@ -13,8 +24,6 @@
   if(is_category()){
     page.title = 'Category: ' + page.category + ' - ' + config.title;
   }
-  
-  language = page.lang || config.language;
   
 %>
     <meta name="google-site-verification" content="0nmry4laWuhQRtJarMf76fgMiD3AmnviX7VyumbteOY" />
