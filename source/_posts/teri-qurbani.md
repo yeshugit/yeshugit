@@ -91,3 +91,14 @@ Phir bhi pita pe tike-2
 src="{{youtube}}"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
 </figure>
+
+## Teri Qurbani Song Credits.
+<div class="has-text-left">
+Source of the song and credit details.
+
+  - **Youtube**: https://youtu.be/EsDA2uTZ1kc?si=heL2vxlUJIAW-eet
+  - **Lyrics & Composition:** Jay
+  - **Singer:** Sr. Meenakshi OSU
+  - **Featuring:** Namita Tirkey, Teresa, Anjli
+  - **Audio & Video:** Junul Studio Ranchi <br> C|O Mr. Anselam Soreng
+</div>
