@@ -6,7 +6,7 @@ keywords: ['pyare masih Lyrics','Yeshu masih pyare masih Lyrics']
 cover: /img/pyare-masih.webp
 date: 2024-03-26 19:22:31
 description: >
-  <b>Yeshu masih pyare masih Mere liye diya balidaan</b>
+  <b>Yeshu masih pyare masih Mere liye diya balidaan.</b>
   <p>Is geet me Yeshu masih ke balidaan ke bare me gaya he. Humare paapon ke karan Yeshu masih ne khud ko Krush pe balidaan kar diya. Taki hume paapon ki kshama mil shake. Usne Apane balidaan ki yaad me apna sharir roti ke rup me aur dakhras apne lahu rup me hume diya hai.</p>
 youtube: https://youtube.com/embed/T_bFEzTTBhQ
 ---
@@ -96,4 +96,5 @@ Yeshu Masih Pyare Masih Mere Liye Diya Balidaan Song Credit and Other Details.
   - **Assist:** Pushpa Kujur
   - **Editing:** Shubham Toppo
   - **Music & Record:** Ajit Roshan Studio Ranchi
+  - **Language:** Hindi
 </div>
