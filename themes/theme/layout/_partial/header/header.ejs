@@ -1,10 +1,11 @@
   <head>
     <%- partial('head/head') %>
   </head>
-  <body>
-    <nav class="navbar is-dark">
+  <body style="display:none">
+    <nav class="navbar is-black">
       <div class="navbar-brand">
         <a href="<%- url_for('/') %>" class="navbar-item">
+          <img src="<%- url_for(theme.favicon.androidchrome512) %>" alt="" />
           <%- config.title %>
         </a>
         
@@ -13,6 +14,14 @@
           <span data-hidden="true"></span>
           <span data-hidden="true"></span>
         </a>
+      </div>
+      <div class="navbar-menu has-background-black">
+        <div class="navbar-start p-3">
+          <a class="navbar-item has-text-primary" href="/">Home</a>
+          <a class="navbar-item has-text-primary" href="/contact-us/">Contact Us</a>
+          <a class="navbar-item has-text-primary" href="/privacy-policy/">Privacy Policy</a>
+          <a class="navbar-item has-text-primary" href="/terms-of-use/">Terms Of Use</a>
+        </div>
       </div>
     </nav>
     

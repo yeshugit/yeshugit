@@ -1,13 +1,16 @@
-    <footer class="footer">
-      <div class="has-text-centered">
-        <a href="<%- url_for('/privacy-policy/') %>">Privacy Policy</a> - 
-        <a href="<%- url_for('/terms-of-use/') %>">Terms Of Use</a> - 
-        <a href="<%- url_for('/contact-us/') %>">Contact Us</a>
+    <footer class="footer has-background-black">
+      <div class="has-text-centered has-text-danger-light">
+        <a class="has-text-primary" href="<%- url_for('/privacy-policy/') %>">Privacy Policy</a> - 
+        <a class="has-text-primary" href="<%- url_for('/terms-of-use/') %>">Terms Of Use</a> - 
+        <a class="has-text-primary" href="<%- url_for('/contact-us/') %>">Contact Us</a>
         <p>|</p>
         <p>copyright &copy; <%- config.title %> 2024 - <span id="year"></span>. All Rights Are Reserved.</p>
         <p>
           <a title="Privacy-friendly Web Analytics" href="https://clicky.com/101446784"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
           <script async data-id="101446784" src="//static.getclicky.com/js"></script>
+        </p>
+        <p>
+          Powered by <strong>Hexo</strong>, <strong>Github</strong> and <strong>Netlify</strong>.
         </p>
       </div>
       
