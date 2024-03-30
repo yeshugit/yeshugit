@@ -1,7 +1,7 @@
 ---
 title: teri aaradhana lyrics
-tags: ['Ft. Jessy Robin', 'Robinson Shalu', 'Philemon Anand', 'Sofia Shalu', 'One Tribe Production']
-categories: ['Worship Songs']
+tags: ['ft. jessy robin', 'robinson shalu', 'philemon anand', 'sofia shalu', 'one tribe production']
+categories: ['worship songs']
 keywords: ['teri aaradhana lyrics','aaradhana teri aaradhana lyrics']
 cover: /img/teri-aaradhana.webp
 date: 2024-03-08 20:47:43

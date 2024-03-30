@@ -13,18 +13,22 @@ function renderCategories(){
   
   categories.forEach((category)=>{
     if(category.count > 0){
-      categoryList.innerHTML += '<li class="tags has-addons"><a class="tag is-primary is-small" href="'+category.path+'">'+category.name+'</a><span class="tag is-dark is-small">'+category.count+'</span></li>';
+      categoryList.innerHTML += '<li class="tags has-addons"><a class="tag is-small" href="'+category.path+'">'+fixCap(category.name)+'</a><span class="tag is-dark is-small">'+category.count+'</span></li>';
     }
   });
 }
 
 function renderrecentPosts(){
   const recentPost = document.getElementById('recent');
-  recentPost.innerHTML = '<h2 class="subtitle has-text-light">Recent Lyrics</h2>';
+  recentPost.innerHTML = '<h2 class="subtitle">Recent Lyrics</h2>';
   
   recent.forEach((post)=>{
-    recentPost.innerHTML += '<a class="has-text-light" href="'+post.path+'"><div class="media"><figure class="media-left"><p class="image is-96x96"><img src="'+post.cover+'" title="'+post.title+'" /></p></figure><div class="media-content"><p>'+post.title+'</p></div></div></a>';
+    recentPost.innerHTML += '<a href="'+post.path+'"><div class="media"><figure class="media-left"><p class="image is-96x96"><img src="'+post.cover+'" title="'+post.title+'" /></p></figure><div class="media-content"><p>'+post.title+'</p></div></div></a>';
   });
+}
+
+function fixCap(str) {
+  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
 
 document.addEventListener('DOMContentLoaded',renderSidebar);

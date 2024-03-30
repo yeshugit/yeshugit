@@ -1,7 +1,7 @@
 ---
 title: yeshu tere kareeb aane se lyrics
-tags: ['Mark Tribhuvan','Kadosh Worshipers','Shreya Singh']
-categories: ['Devotional Songs','Worship Songs']
+tags: ['mark tribhuvan','kadosh worshipers','shreya singh']
+categories: ['devotional songs','worship songs']
 keywords: ['Christian devotional music','yeshu Tere kareeb Aane se','yeshu Tere kareeb Aane se lyrics','mai dhanyawaad karta rahunga lyrics','dhanyawaad lyrics']
 cover: /img/yeshu-tere-kareeb-aane-se.webp
 date: 2024-02-28 20:46:17

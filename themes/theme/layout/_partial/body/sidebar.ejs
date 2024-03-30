@@ -1,0 +1,69 @@
+<div class="box">
+  <p class="subtitle">Search Lyrics</p>
+  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+    <div class="field has-addons">
+      <div class="control has-icons-left">
+        <input class="input has-text-white has-background-dark" type="search" name="q" placeholder="Search">
+        <input type="hidden" name="sitesearch" value="https://yeshugit.netlify.app">
+        <span class="icon is-left">
+          <i class="fa fa-search has-text-link"></i>
+        </span>
+      </div>
+      <div class="control">
+        <button type="submit" class="button is-link">
+          <span class="fa fa-search"></span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="box">
+  <p class="subtitle">About <%- config.title %></p>
+  <p>
+     <%- config.description %>
+  </p>
+</div>
+
+<div class="box">
+  <p class="subtitle">Follow Us</p>
+  <div class="menu">
+    <ul class="menu-list">
+      <li>
+        <a href="https://www.instagram.com/yeshugit/">
+          <span class="icon">
+            <i class="fa fa-link"></i>
+          </span> 
+          <span>Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon">
+            <i class="fa fa-link"></i>
+          </span> 
+          <span>Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <span class="icon">
+            <i class="fa fa-link"></i>
+          </span> 
+          <span>Youtube</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+        
+<div id="recent" class="box">
+</div>
+        
+<div class="box">
+  <p class="subtitle">Categories</p>
+  <nav class="menu">
+    <ul id="categories">
+    </ul>
+  </nav>
+</div>

@@ -1,7 +1,7 @@
 ---
 title: wo lahoo mujhko de do Lyrics
-tags: ['Good Friday Song','Alpha Omega Records','Hindi Lent Song']
-categories: ['Good Friday - Easter']
+tags: ['good friday song','alpha omega records','hindi lent song']
+categories: ['good friday - easter']
 keywords: ['wo lahoo Lyrics','wo lahoo mujhko de do Lyrics']
 cover: /img/wo-lahoo.webp
 date: 2024-03-27 14:20:20

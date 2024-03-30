@@ -1,5 +1,10 @@
+<%
+function fixCap(str) {
+  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+%>
 <div id="content" class="column">
-  <article class="block box has-text-light">
+  <article class="block box">
     <div class="box">
       <figure class="image is-16by9 has-text-centered">
         <img style="border-radius: 5px" src="<%- url_for(page.cover || theme.cover) %>" alt="<%- page.title %>" />
@@ -8,15 +13,16 @@
       <P>
         <strong>Description : </strong>
         <%- page.description %>
-      </P>
+      </p>
       
       <% if(page.categories){%>
+      <br>
       <p>
       <div class="tags">
         <span class="tag is-small is-dark fa fa-folder"></span> 
         <% page.categories.each((category)=>{%>
           <a class="tag is-small is-dark" href="<%- url_for(category.path) %>">
-            <span class="has-text-white"><%- category.name %></span>
+            <span class="has-text-white"><%- fixCap(category.name) %></span>
           </a>
         <%}); %>
       </div></p><%} %>
@@ -45,7 +51,7 @@
         <div class="control">
           <div class="tags has-addons">
             <a class="tag is-small is-success" href="<%- url_for(tag.path) %>">
-              <span class="has-text-white"><%- tag.name %></span>
+              <span class="has-text-white"><%- fixCap(tag.name) %></span>
             </a>
             <span class="tag is-small is-dark"><%- tag.length %></span>
           </div>

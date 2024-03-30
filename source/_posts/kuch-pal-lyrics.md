@@ -1,8 +1,8 @@
 ---
 title: Kuch Pal Lyrics
 date: 2024-02-19 10:58:22
-tags: ['Friends of God Ministries','Abc Increase']
-categories: ['Devotional Songs']
+tags: ['friends of god ministries','abc increase']
+categories: ['devotional songs']
 keywords: ['kuch pal Lyrics','Lagta Hai Mujhe Main Zinda Hoon Lyrics']
 cover: /img/kuch-pal.webp
 description: |

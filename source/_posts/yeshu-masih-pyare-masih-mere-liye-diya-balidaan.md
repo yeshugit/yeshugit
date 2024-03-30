@@ -1,7 +1,7 @@
 ---
 title: yeshu masih pyare masih mere liye diya balidaan Lyrics
-tags: ['Good Friday Song','Hindi Lent Song','Sakshi Toppo','Ajit Roshan Studio Ranchi']
-categories: ['Good Friday - Easter']
+tags: ['good friday song','hindi lent song','sakshi toppo','ajit roshan studio ranchi']
+categories: ['good friday - easter']
 keywords: ['pyare masih Lyrics','Yeshu masih pyare masih Lyrics']
 cover: /img/pyare-masih.webp
 date: 2024-03-26 19:22:31

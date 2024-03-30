@@ -40,9 +40,9 @@ description: >-
   The lyrics describe the complete dependence on Jesus, desire to be like him,
   and  gratitude for love and guidance.
 categories: 
-  - 'Devotional Songs'
+  - 'devotional songs'
 tags: 
-  - 'Friends of God Ministries'
+  - 'friends of god ministries'
 keywords: ['Kuch teri tarah lyrics','Kuch teri tarah']
 ---
 ## English Lyrics : {{title}}

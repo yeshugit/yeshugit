@@ -1,7 +1,7 @@
 ---
 title: ishwaron ka parmeshwar lyrics
-tags: ['One Tribe Production']
-categories: ['Worship Songs']
+tags: ['one tribe production']
+categories: ['worship songs']
 keywords: ['Iishvaron Kaa Parameshwar','Iishvaron Kaa Parameshwar lyrics','Iishvaron Kaa Parameshwar song']
 cover: /img/ishwaron-ka-parmeshwar.webp
 date: 2024-03-10 18:59:46

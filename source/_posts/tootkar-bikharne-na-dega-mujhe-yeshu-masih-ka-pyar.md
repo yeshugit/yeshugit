@@ -1,7 +1,7 @@
 ---
 title: tootkar bikharne na dega mujhe yeshu masih ka pyar
-tags: ['George Jacob','Ashley Joseph']
-categories: ['Devotional Songs']
+tags: ['george jacob','ashley joseph']
+categories: ['devotional songs']
 keywords: ['Tootkar bikharne na dega mujhe Lyrics','yeshu tera pyar Lyrics','Tootkar bikharne na dega Lyrics','Tootkar bikharne na dega mujhe yeshu Masih ka pyar', 'Hindi Christian song','Ashley Joseph song']
 cover: /img/tootkar-bikharne.webp
 date: 2024-03-12 17:54:31

@@ -1,8 +1,8 @@
     <footer class="footer has-background-black">
-      <div class="has-text-centered has-text-danger-light">
-        <a class="has-text-primary" href="<%- url_for('/privacy-policy/') %>">Privacy Policy</a> - 
-        <a class="has-text-primary" href="<%- url_for('/terms-of-use/') %>">Terms Of Use</a> - 
-        <a class="has-text-primary" href="<%- url_for('/contact-us/') %>">Contact Us</a>
+      <div class="has-text-centered">
+        <a class="" href="<%- url_for('/privacy-policy/') %>">Privacy Policy</a> - 
+        <a class="" href="<%- url_for('/terms-of-use/') %>">Terms Of Use</a> - 
+        <a class="" href="<%- url_for('/contact-us/') %>">Contact Us</a>
         <p>|</p>
         <p>copyright &copy; <%- config.title %> 2024 - <span id="year"></span>. All Rights Are Reserved.</p>
         <p>
@@ -26,8 +26,8 @@
         document.getElementsByTagName("body")[0].appendChild(s);
       }());
       
-        var date = new Date();
-        year = date.getFullYear();
-        document.getElementById('year').innerHTML = year;
+      var date = new Date();
+      year = date.getFullYear();
+      document.getElementById('year').innerHTML = year;
     </script>
   </body>

@@ -1,7 +1,7 @@
 ---
 title: tera lahoo deta hai humko shifa Lyrics
-tags: ['Good Friday Song','Hindi Lent Song']
-categories: ['Good Friday - Easter']
+tags: ['good friday song','hindi lent song']
+categories: ['good friday - easter']
 keywords: ['tera lahoo Lyrics','tera lahoo deta hai humko shifa Lyrics']
 cover: /img/yeshu-git-lyrics.webp
 date: 2024-03-27 15:47:08

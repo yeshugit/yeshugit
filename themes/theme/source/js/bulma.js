@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelector("body").removeAttribute('style');
-  const body = document.getElementById('body');
+  /**const body = document.getElementById('body');
   if (body) {
     body.classList.add('has-background-dark');
     body.querySelectorAll('p, div, h1, h2, h3, h4, h5, h6, b, i,strong,label').forEach((el) => {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       link.classList.add('has-text-primary');
     });
   }
-
+**/
   const navBurger = document.querySelector(".navbar-burger");
   const navMenu = document.querySelector(".navbar-menu");
 

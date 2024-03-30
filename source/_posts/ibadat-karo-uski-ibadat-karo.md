@@ -1,8 +1,8 @@
 ---
 title: ibadat karo lyrics, aye duniya ke logo unchi aawaz karo.
 date: 2024-02-17 16:51:49
-tags: ['Anil Kant','Shreya Kant','Reena']
-categories: ['Worship Songs']
+tags: ['anil kant','shreya kant','reena']
+categories: ['worship songs']
 keywords: ['ibadat karo','ibadat karo lyrics','ibadat karo christian song lyrics']
 cover: /img/ibadat-karo-lyrics.webp
 description: 'Here are the lyrics, video link and Bible verse for the song "Ibadat Karo" by Anil Kant, Reena, and Shreya Kant. The song is based on several verses from the Bible.'

@@ -1,33 +1,35 @@
 <div class="column">
-  <h2 class="title">Latest Lyrics</h2>
-  <div class="columns is-multiline is-flex">
-    <% page.posts.each(function(post){%>
-     
-    <div class="p-1 column is-half-mobile is-4-tablet is-3-desktop">
-      <div class="box p-0 posts">
-        <a href="<%- url_for(post.path) %>" title="<%- post.title %>">
-          <figure class="image is-5by3">
-            <img src="<%- url_for(post.cover || theme.cover) %>" alt="<%- post.title %>" />
-          </figure>
-          <p class="is-5 p-1">
-            <%- post.title %>
-          </p>
-        </a>
+  <div class="box has-background-black">
+    <h2 class="subtitle">Latest Lyrics</h2>
+    <div class="columns is-multiline is-flex">
+      <% page.posts.each(function(post){%>
+       
+      <div class="p-1 column is-half-mobile is-4-tablet is-3-desktop">
+        <div class="box p-0 posts">
+          <a href="<%- url_for(post.path) %>" title="<%- post.title %>">
+            <figure class="image is-5by3">
+              <img src="<%- url_for(post.cover || theme.cover) %>" alt="<%- post.title %>" />
+            </figure>
+            <p class="is-5 p-1">
+              <%- post.title %>
+            </p>
+          </a>
+        </div>
       </div>
+      
+      <%}) %>
+      <div class="is-clearfix"></div>
     </div>
     
-    <%}) %>
-    <div class="is-clearfix"></div>
-  </div>
-  
-  <nav class="pagination is-small">
+    <nav class="pagination is-small">
     <%- paginator({
     prev_next: true,
-    next_class: 'pagination-next has-text-white',
-    prev_class: 'pagination-previous has-text-white',
-    page_class: 'pagination-link has-text-white',
-    current_class: 'pagination-link is-current has-background-primary',
+    next_class: 'pagination-next',
+    prev_class: 'pagination-previous',
+    page_class: 'pagination-link',
+    current_class: 'pagination-link is-current',
     space_class: 'pagination-ellipsis',
     }) %>
   </nav>
+  </div>
 </div>

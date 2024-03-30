@@ -1,7 +1,7 @@
 ---
 title: khoon ki dhara lyrics
-tags: ['Good Friday Song','Gamit Worshipers']
-categories: ['Good Friday - Easter']
+tags: ['good friday song','gamit worshipers']
+categories: ['good friday - easter']
 keywords: ['khoon ki dhara lyrics','Khoon ki dhara bahati suli se lyrics']
 cover: /img/khoon-ki-dhara.webp
 date: 2024-03-25 08:19:55

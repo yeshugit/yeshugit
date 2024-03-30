@@ -1,4 +1,7 @@
 <%
+  function fixCap(str) {
+    return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  }
   var keywords = '';
   
   if(page.keywords){
@@ -10,6 +13,10 @@
     page.tags.each((item)=>{
       keywords += item.name +', ';
     });
+    const con_url = fixCap(page.path);
+    %>
+  <link rel="canonical" href="<%- con_url %>">
+    <%
   }
   if(page.categories){
     page.categories.each((item)=>{
@@ -66,5 +73,5 @@
     <%} %>
     
     
-    <%- css('/css/bulma.css','/css/fa.css') %>
+    <%- css('/css/bulma-dark.css','/css/fa.css') %>
     <%- js('/js/bulma.js') %>

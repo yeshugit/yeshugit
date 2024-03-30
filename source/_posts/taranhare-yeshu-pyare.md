@@ -52,9 +52,9 @@ description: >-
   you be touched and be blessed by this song. All glory and honour be to JESUS
   alone.
 categories:
-  - Worship Songs
+  - worship songs
 tags:
-  - Friends of God Ministries
+  - friends of god ministries
 keywords:  ['Taranhare lyrics','Taranhare']
 ---
 ## English Lyrics : {{title}}

@@ -1,7 +1,7 @@
 ---
 title: teri qurbani Lyrics
-tags: ['Shining Cross Ranchi','Hindi Lent Song','Good Friday Song']
-categories: ['Good Friday - Easter']
+tags: ['shining cross ranchi','hindi lent song','good friday song']
+categories: ['good friday - easter']
 keywords: ['teri qurbani Lyrics','teri kurbani Lyrics','teri qurbani yaad hai Lyrics']
 cover: /img/teri-qurbani.webp
 date: 2024-03-26 09:02:27

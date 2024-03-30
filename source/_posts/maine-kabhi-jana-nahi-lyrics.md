@@ -1,7 +1,7 @@
 ---
 title: maine kabhi jana nahi lyrics
-tags: ["Agape","God's love",'Rubina BK','Ft. Rajat BK','Prayash Rai']
-categories: ['Devotional Songs']
+tags: ["agape","god's love",'rubina bk','ft. rajat bk','prayash rai']
+categories: ['devotional songs']
 keywords: ['maine kabhi jana nahi lyrics']
 cover: /img/maine-kabhi-jana-nahi-lyrics.webp
 date: 2024-03-18 16:58:45

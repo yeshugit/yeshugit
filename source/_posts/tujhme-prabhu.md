@@ -69,7 +69,7 @@ lyrics_hi: |
 cover: /img/tujhme-prabhu.webp
 youtube: https://youtube.com/embed/Zc5bXLjfZyQ
 tags: []
-categories: ['Devotional Songs']
+categories: ['devotional songs']
 keywords: ['tujhme prabhu','tujhme prabhu lyrics','tujhme prabhu bana mein Rahun Lyrics']
 ---
 ## English Lyrics : {{title}}

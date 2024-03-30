@@ -1,7 +1,7 @@
 ---
 title: pavitra mujhe bana de prabhu lyrics
-tags: ['Filadelfia Music']
-categories: ['Devotional Songs']
+tags: ['filadelfia music']
+categories: ['devotional songs']
 keywords: ['Pavitra mujhe bana de prabhu lyrics','Sharir ki abhilaashaon par lyrics']
 cover: /img/pavitra-mujhe-bana-de-prabhu.webp
 date: 2024-03-19 18:09:57

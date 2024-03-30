@@ -1,7 +1,7 @@
 ---
 title: tu chalta gaya lyrics
-tags: ['Good Friday Song','Prakash Prabhakar']
-categories: ['Good Friday - Easter']
+tags: ['good friday song','prakash prabhakar']
+categories: ['good friday - easter']
 keywords: ['tu chalta gaya lyrics', 'chalta gaya lyrics', 'good Friday']
 cover: /img/tu-chalta-gaya.webp
 date: 2024-03-24 12:16:23

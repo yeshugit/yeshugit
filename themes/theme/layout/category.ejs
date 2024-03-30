@@ -1,6 +1,12 @@
+<%
+function fixCap(str) {
+  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+%>
 <div class="column">
-  <h2 class="title">Lyrics by Category: <%- page.category %></h2>
-  <div class="columns is-multiline is-flex">
+  <div class="box">
+    <h2 class="subtitle">Lyrics by Category: <%- fixCap(page.category) %></h2>
+    <div class="columns is-multiline is-flex">
     <% page.posts.each(function(post){%>
      
     <div class="p-1 column is-half-mobile is-4-tablet is-3-desktop">
@@ -20,4 +26,5 @@
     <div class="is-clearfix"></div>
   </div>
   
+  </div>
 </div>

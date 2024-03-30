@@ -1,50 +1,10 @@
-<div id="body" class="container has-background-dark">
+<div id="body" class="container">
   <div class="section">
-    <div class="columns has-text-light">
+    <div class="columns">
       <%- body %>
           
       <div class="column is-4">
-        <div class="box has-background-black">
-          <p class="subtitle">Search Lyrics</p>
-          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-            <div class="field has-addons">
-              <div class="control has-icons-left">
-                <input class="input has-text-black" type="search" name="q" class="search-form-input" placeholder="Search">
-                <input type="hidden" name="sitesearch" value="https://yeshugit.netlify.app">
-                <span class="icon is-left">
-                  <i class="fa fa-search has-text-primary"></i>
-                </span>
-              </div>
-              <div class="control">
-                <button type="submit" class="button is-primary">
-                  <span class="fa fa-search"></span>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-        
-        <div id="recent" class="box">
-        </div>
-        
-        <div class="box">
-          <p class="subtitle">Categories</p>
-          <nav class="menu">
-            <ul id="categories">
-            </ul>
-          </nav>
-        </div>
-        <script>
-          
-        </script>
-        
-        <div class="box">
-          <p class="subtitle">About <%- config.title %></p>
-          <p>
-            <%- config.description %>
-          </p>
-        </div>
-        
+        <%- partial('sidebar') %>
         
       </div>
           
