@@ -72,6 +72,28 @@
     <link rel="manifest" href="<%- url_for(theme.favicon.webmanifest) %>">
     <%} %>
     
+    <style type="text/css">
+     .loader-wrapper{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(25,25,25,1);
+      z-index: 10;
+      opacity: 0.9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+      document.addEventListener('DOMContentLoaded',()=>{
+        document.querySelector('.loader-wrapper').classList.add('is-hidden');
+      });
+    </script>
+    
     
     <%- css('/css/bulma-dark.css','/css/fa.css') %>
     <%- js('/js/bulma.js') %>
