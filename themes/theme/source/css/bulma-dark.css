@@ -268,7 +268,7 @@ th {
     text-align: inherit; }
 
 html {
-  background-color: #000233;
+  background-color: #301480;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -383,7 +383,7 @@ table th {
     transform: rotate(359deg); } }
 /* Bulma Elements */
 .box {
-  background-color: #000055;
+  background-color: #000005;
   border-radius: 6px;
   box-shadow: 4px;
   color: #ffffaa;
